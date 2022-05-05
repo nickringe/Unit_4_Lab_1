@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		boolean cont = true;
+		Scanner scnr = new Scanner(System.in);
+		ArrayList<Movie> movieList = new ArrayList<>();
+		movieList.add(new Movie("Spongebob", "animated"));
+		System.out.println("Welcome to the Movie List Application!");
+		System.out.println("\nThere are 10 movies in this list.");
+		while (cont == true) {
+			System.out.println("What category are you interested in?");
+			System.out.println("(animated/horror/drama/scifi):");
+			String userInput = scnr.nextLine();
+			
+		}
+
+	}
+
+}
